@@ -1,0 +1,75 @@
+.allcards {
+  position: relative;
+}
+
+.one {
+  position: absolute;
+  background-color: yellow;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-image: url(/img/ace1.png);
+  width: 189px;
+  height: 290px;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.two {
+  position: absolute;
+  background-color: yellow;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-image: url(/img/ace2.png);
+  width: 189px;
+  height: 290px;
+  border: 1px solid black;
+  z-index: 2;
+  top: 40px;
+  left: 40px;
+}
+
+.three {
+  position: absolute;
+  background-color: yellow;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-image: url(/img/ace3.png);
+  width: 189px;
+  height: 290px;
+  border: 1px solid black;
+  z-index: 3;
+  top: 80px;
+  left: 80px;
+}
+
+.four {
+  position: absolute;
+  background-color: yellow;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-image: url(/img/ace4.png);
+  width: 189px;
+  height: 290px;
+  border: 1px solid black;
+  z-index: 4;
+  top: 120px;
+  left: 120px;
+}
+
+.five {
+  position: absolute;
+  background-color: yellow;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-image: url(/img/ace5.png);
+  width: 189px;
+  height: 290px;
+  border: 1px solid black;
+  z-index: 5;
+  top: 160px;
+  left: 160px;
+}
+
+.card:hover {
+  z-index: 13;
+}
